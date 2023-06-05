@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+ul input[type=search]{
+    padding:12px 10px;
+    float:right;
+    width:450px;
+}
+h1{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>COMPLETE!!!!</h1>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"></li>
+  <div class="truongtin">
+    <input type="search" placeholder="nhap vao tim kiem">
+</ul>
+  </div>
+</ul>
+</body>
+</html>
+
+
